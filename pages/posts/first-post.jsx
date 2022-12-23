@@ -9,7 +9,7 @@ export default function FirstPost() {
         <>
             <Layout>
                 <Head>
-                    <title>First post</title>
+                    <title >First post</title>
                 </Head>
                 <Script
                     src="https://connect.facebook.net/en_US/sdk.js"
@@ -25,7 +25,11 @@ export default function FirstPost() {
                     width={144} // Desired size with correct aspect ratio
                     alt="Your Name" />
 
-                <h1>First Post</h1>
+                <h1 className="text-5xl">First Post</h1>
+                <p className="px-80">Bla bla bla bla bla, bla bla. Bla bla bla bla bla, bla bla. Bla bla bla bla bla, bla bla.
+                Bla bla bla bla bla, bla bla. Bla bla bla bla bla, bla bla. Bla bla bla bla bla, bla bla. 
+                Bla bla bla bla bla, bla bla. Bla bla bla bla bla, bla bla. Bla bla bla bla bla, bla bla.
+                </p>
                 <h2><Link href="/">Back Home</Link>
                 </h2>
             </Layout>

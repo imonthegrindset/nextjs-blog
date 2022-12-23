@@ -1,3 +1,3 @@
 export default function Layout({children}) {
-    return <div className="bg-blue-500">{children}</div>
+    return <div className="p-20 text-lg font-bold flex justify-center items-center flex-col">{children}</div>
 }
